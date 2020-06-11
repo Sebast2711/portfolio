@@ -107,16 +107,16 @@
 
 
 
-	<form method="POST" action="contact.php" netlify>
+	<form action="POST" data-netlify="true">
 		<div class="row justify-content-center">
 			<div class="col-sm-12 col-md-auto">
-				<input type="text" id="name" placeholder="Nom">
+				<input type="text" id="name" name="nom" placeholder="Nom">
 			</div>	
 			<div class="col-sm-12 col-md-auto">
-				<input type="mail" id="email" placeholder="Adresse Mail">
+				<input type="mail" id="email" name="email" placeholder="Adresse Mail">
 			</div>
 			<div class="col-12">
-				<textarea id="message" placeholder="Message"></textarea>				
+				<textarea id="message" name="message" placeholder="Message"></textarea>				
 			</div>	
 		</div>
 		
