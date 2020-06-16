@@ -61,6 +61,10 @@ header {
 	font-size: 18px;
 }
 
+.portfolio .card img{
+	max-height: 300px;
+}
+
 .portfolio .btn{
 	margin: 10px;
 	width: 100px;
@@ -163,15 +167,37 @@ footer i{
 
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (max-width: 576px) { 
-	 .portfolio .card {
+@media (max-width: 576px) {
+
+	header {
+		min-height: 900px;
+	}
+	.presentation p {
+		width: 80%;
+	}
+
+	.portfolio .card {
 		min-height: auto; 	
 	}
+
+	.outils i, .outils img{
+		padding-top:  15%;	
+	}
+
+	.formulaire textarea {
+		width: 100%;
+	}
+	.formulaire input {
+		width: 100%;
+	}
+	
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { 
-
+@media (min-width: 577px) { 
+	.outils i, .outils img{
+		padding-top:  15%;	
+	}
 }
 
 /* Large devices (desktops, 992px and up)*/
