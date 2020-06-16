@@ -1,31 +1,64 @@
-body{
-	background-color: #808080;
-	text-align: center;
-
-    font-family: 'Raleway';
+body {
+ 	text-align: center;
+	background-color: black;
+	
+	font-family: 'Raleway';
     font-size: 22px;
 }
 
+hr {
+	background-color: white;
+	width: 20%;
+
+}
+
+/*Header*/
 
 header {
-	padding:10%;
+	padding-bottom: 15%;
+
+
+ 	background: url("../img/bg.jpg")no-repeat;
+ 	background-size: 100% 100%;
+
+	color: white;
+
 }
+
+/*Nom et description du job*/
 
 .top{
 	padding: 5%;
 }
 
+
+
+/*Presentation*/
 .presentation p {
 	margin: auto;
 	width: 55%;
+	padding-top: 25px;
 } 
 
+/*Portfolio*/
+
 .portfolio {
+
+
+}	
+
+
+
+.portfolio h2{
 	padding: 5%;
-	background-color: white;
+	color: white;
 }
 .portfolio .card {
 	border: 2px solid black;
+	min-height: 600px;
+}
+.portfolio .card h4 {
+	font-weight: bold;
 }
 
 .portfolio .btn{
@@ -43,7 +76,9 @@ header {
 	padding-bottom: 3%;
 }
 
-
+i{
+	color:white;
+}
 
 
 footer a{
