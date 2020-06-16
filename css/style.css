@@ -42,12 +42,6 @@ header {
 
 /*Portfolio*/
 
-.portfolio {
-
-
-}	
-
-
 
 .portfolio h2{
 	padding: 5%;
@@ -56,9 +50,15 @@ header {
 .portfolio .card {
 	border: 2px solid black;
 	min-height: 600px;
+	background-color: #bfbfbf;
 }
 .portfolio .card h4 {
 	font-weight: bold;
+	text-decoration: underline;
+}
+
+.portfolio .card p {
+	font-size: 18px;
 }
 
 .portfolio .btn{
@@ -66,28 +66,105 @@ header {
 	width: 100px;
 }
 
-.outils {
-	padding: 5%;
-}
-
-
-
 .portfolio .col-sm-12{
 	padding-bottom: 3%;
 }
 
-i{
+.col-4{
+	font-style: italic;
+}
+
+/*Outils*/
+
+.outils {
+	padding-bottom: 5%;
+}
+
+.outils h2{
+	padding: 3%; 
 	color:white;
 }
 
+.outils p{
+	color: white;
+}
 
+.outils h6{
+	color: white;
+}
+
+.outils .fa, .outils .fab{
+	font-size: 1.5em;
+	padding-bottom: 20px;
+}
+
+.fa-html5{
+	color: blue;
+}
+
+.fa-css3{
+	color: orange;
+}
+.fa-bold{
+	color: purple;
+}
+.fa-js{
+	color:yellow;
+}
+.Xd{
+	width: 35px;
+	padding-bottom: 20px;
+}
+
+
+
+/*Formulaire*/
+.formulaire{
+	padding: 5%;
+}
+.formulaire h2{
+	color: white;
+	padding-bottom: 25px; 
+}
+
+.formulaire .col-md-6 {
+	margin-bottom: 10px;
+}
+
+.form-row {
+	width: 50%;
+	margin-left: 25%;
+
+}
+
+textarea{
+	width: 50%;
+	margin-bottom: 25px;
+}
+
+
+
+
+
+/*Bas de page*/
 footer a{
 	color: black;
 }
+footer a:hover{
+	background-color: #bfbfbf;
+}
+footer i{
+	color:white;
+	margin-right: 10px;
+
+}
+
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
-
+@media (max-width: 576px) { 
+	 .portfolio .card {
+		min-height: auto; 	
+	}
 }
 
 /* Medium devices (tablets, 768px and up)*/
