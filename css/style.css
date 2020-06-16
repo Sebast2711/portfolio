@@ -87,10 +87,14 @@ header {
 
 .outils p{
 	color: white;
+	margin:auto;
+	font-size: 18px;
+	width: 80%;
 }
 
 .outils h6{
 	color: white;
+	font-size: 22px;
 }
 
 .outils .fa, .outils .fab{
@@ -134,7 +138,6 @@ header {
 .form-row {
 	width: 50%;
 	margin-left: 25%;
-
 }
 
 textarea{
@@ -156,7 +159,6 @@ footer a:hover{
 footer i{
 	color:white;
 	margin-right: 10px;
-
 }
 
 
