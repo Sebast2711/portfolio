@@ -61,6 +61,10 @@ header {
 	font-size: 18px;
 }
 
+#Res p{
+	font-size: 17px;
+}
+
 .portfolio .card img{
 	max-height: 300px;
 }
