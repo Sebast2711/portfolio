@@ -1,7 +1,7 @@
 body {
  	text-align: center;
 	background-color: black;
-	
+
 	font-family: 'Raleway';
     font-size: 22px;
 }
@@ -12,7 +12,15 @@ hr {
 
 }
 
+/*Test*/
+/* .container-fluid {
+  background-color: blueviolet;
+} */
+
+
 /*Header*/
+
+
 
 header {
 	padding-bottom: 15%;
@@ -38,7 +46,7 @@ header {
 	margin: auto;
 	width: 55%;
 	padding-top: 25px;
-} 
+}
 
 /*Portfolio*/
 
@@ -89,7 +97,7 @@ header {
 }
 
 .outils h2{
-	padding: 3%; 
+	padding: 3%;
 	color:white;
 }
 
@@ -136,7 +144,7 @@ header {
 }
 .formulaire h2{
 	color: white;
-	padding-bottom: 25px; 
+	padding-bottom: 25px;
 }
 
 .formulaire .col-md-6 {
@@ -158,16 +166,27 @@ textarea{
 
 
 /*Bas de page*/
+
+footer h2{
+	color: white;
+	padding-bottom: 25px;
+}
+
 footer a{
 	color: black;
+  padding: 10px;
 }
-footer a:hover{
-	background-color: #bfbfbf;
-}
+
 footer i{
 	color:white;
-	margin-right: 10px;
 }
+
+footer p {
+  font-size: 10px;
+  margin: 10px;
+  color: aliceblue;
+}
+
 
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -181,11 +200,11 @@ footer i{
 	}
 
 	.portfolio .card {
-		min-height: auto; 	
+		min-height: auto;
 	}
 
 	.outils i, .outils img{
-		padding-top:  15%;	
+		padding-top:  15%;
 	}
 
 	.formulaire textarea {
@@ -195,9 +214,9 @@ footer i{
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 577px) { 
+@media (min-width: 577px) {
 	.outils i, .outils img{
-		padding-top:  15%;	
+		padding-top:  15%;
 	}
 	.formulaire textarea {
 		width: 50%;
@@ -208,7 +227,7 @@ footer i{
 }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
 	.card {
 		height: 500px;
 	}
@@ -216,8 +235,6 @@ footer i{
 
 /* Extra large devices (large desktops, 1200px and up)*/
 
-@media (min-width: 1200px) { 
-	body {
-		width:99%;
-	}
+@media (min-width: 1200px) {
+ /*Rien pour linstant*/
 }
