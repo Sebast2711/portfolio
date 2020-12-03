@@ -9,11 +9,41 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.css">
 	<meta name="viewport" content="width=device-width, initial-scale = 1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 <body>
+
+<div  id="HautDePage" class="container-fluid navigation">
+
+	<nav class="navbar navbar-expand-md  justify-content-end ">
+	  <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span style="color:blue" class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+	    <ul class="navbar-nav ">
+	      <li class="nav-item ">
+	        <a id="Accueil"class="nav-link" href="#HautDePage">Accueil </a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#Projets">Projets</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#Outils">Outils</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#Contact">Contact</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+</div>
 
 	<div class="container-fluid">
 			<header>
@@ -25,13 +55,13 @@
 
 					<div class ="presentation">
 						<h3>Qui suis-je ?</h3>
-						<p>Je m'appelle OILLO Sébastien, je suis développeur en informatique. Je suis à la recherche d'un emploi dans le developpement informatique. Ce site est une présentatition de mes différentes réalisations.  </p>
+						<p>Je m'appelle OILLO Sébastien, je suis développeur en informatique. Je suis à la recherche d'un stage dans le developpement web au cours de ma formation à l'Afpa.<br> Ce site est une présentatition de mes différentes réalisations.  </p>
 					</div>
 				</header>
 	</div>
 
 	<div class ="portfolio container-fluid ">
-		<h2>Portfolio</h2>
+		<h2 id="Projets">Portfolio</h2>
 		<div class="row">
 			<div class = "col-sm-12 col-md-6 col-lg-4"><!--- Project 1 start --->
 				<div class="card">
@@ -164,7 +194,7 @@
 
 
 	<div class="outils container-fluid">
-		<h2>Outils</h2>
+		<h2 id="Outils">Outils</h2>
 		<div class="row justify-content-start">
 			<div class="col-xs-12 col-sm-6 col-md-4">
 				<i class="fa fa-html5 "></i>
@@ -198,7 +228,7 @@
 
 
 	<div class="formulaire container-fluid">
-		<h2>Me contater</h2>
+		<h2 id="Contact">Me contater</h2>
 		<form action="POST" data-netlify="true">
 			<div class="form-row justify-content-center">
 				<div class="col-md-6 col-sm-12">

@@ -1,7 +1,7 @@
 body {
  	text-align: center;
-	background-color: black;
 
+  background-color: black;
 	font-family: 'Raleway';
     font-size: 22px;
 }
@@ -12,10 +12,31 @@ hr {
 
 }
 
-/*Test*/
-/* .container-fluid {
-  background-color: blueviolet;
-} */
+
+/*Changer la couleur du hamburger*/
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,255,255);
+}
+
+
+.nav-item{
+  padding: 5px;
+  margin: 5px;
+}
+
+/*Liens*/
+.nav-link{
+  color:white;
+}
+
+/*Couleur de fond de la navigation*/
+.navigation{
+  background-color: black;
+}
+
 
 
 /*Header*/
