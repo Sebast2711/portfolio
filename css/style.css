@@ -28,15 +28,19 @@ hr {
 }
 
 /*Liens*/
-.nav-link{
+.nav-link {
   color:white;
 }
 
 /*Couleur de fond de la navigation*/
 .navigation{
   background-color: black;
+  margin: 10px;
 }
 
+.navbar{
+  background-color: black;
+}
 
 
 /*Header*/
