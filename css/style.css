@@ -12,6 +12,7 @@ hr {
 
 }
 
+/*Navigation*/
 
 /*Changer la couleur du hamburger*/
 .custom-toggler .navbar-toggler-icon {
@@ -20,7 +21,6 @@ hr {
 .custom-toggler.navbar-toggler {
   border-color: rgb(255,255,255);
 }
-
 
 .nav-item{
   padding: 5px;
@@ -35,7 +35,8 @@ hr {
 /*Couleur de fond de la navigation*/
 .navigation{
   background-color: black;
-  margin: 10px;
+  margin: 10%;
+
 }
 
 .navbar{
@@ -213,7 +214,6 @@ footer p {
 }
 
 
-
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 375px) {
 
@@ -256,6 +256,9 @@ footer p {
 	.card {
 		height: 500px;
 	}
+  .navigation{
+    margin: 5%;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
