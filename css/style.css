@@ -1,15 +1,14 @@
 body {
- 	text-align: center;
+  text-align: center;
 
   background-color: black;
-	font-family: 'Raleway';
-    font-size: 22px;
+  font-family: "Raleway";
+  font-size: 22px;
 }
 
 hr {
-	background-color: white;
-	width: 20%;
-
+  background-color: white;
+  width: 20%;
 }
 
 /*Navigation*/
@@ -19,193 +18,199 @@ hr {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .custom-toggler.navbar-toggler {
-  border-color: rgb(255,255,255);
+  border-color: rgb(255, 255, 255);
 }
 
-.nav-item{
+.nav-item {
   padding: 5px;
   margin: 5px;
 }
 
 /*Liens*/
 .nav-link {
-  color:white;
+  color: white;
 }
 
 /*Couleur de fond de la navigation*/
-.navigation{
+.navigation {
   background-color: black;
   margin: 10%;
-
 }
 
-.navbar{
+.navbar {
   background-color: black;
 }
-
 
 /*Header*/
 
-
-
 header {
-	padding-bottom: 15%;
+  width: 100%;
+  padding-bottom: 15%;
 
+  background: url("../img/bg.jpg") no-repeat;
+  background-size: 100% 100%;
 
- 	background: url("../img/bg.jpg")no-repeat;
- 	background-size: 100% 100%;
-
-	color: white;
-
+  color: white;
 }
 
 /*Nom et description du job*/
 
-.top{
-	padding: 5%;
+.top {
+  padding: 5%;
 }
-
-
 
 /*Presentation*/
 .presentation p {
-	margin: auto;
-	width: 55%;
-	padding-top: 25px;
+  margin: auto;
+  width: 55%;
+  padding-top: 25px;
+}
+
+/* Reseaux */
+
+.reseaux {
+  margin: 3% 0px;
+}
+
+.reseaux a {
+  color: black;
+  padding: 10px;
+}
+
+.reseaux i {
+  color: white;
+}
+
+.reseaux i:hover {
+  color: grey;
+}
+
+.reseaux h3 {
+  color: white;
+  margin-bottom: 25px;
 }
 
 /*Portfolio*/
 
-
-.portfolio h2{
-	padding: 5%;
-	color: white;
+.portfolio h2 {
+  padding: 5%;
+  color: white;
 }
 .portfolio .card {
-	border: 2px solid black;
-	min-height: 600px;
-	background-color: #bfbfbf;
+  border: 2px solid black;
+  min-height: 600px;
+  background-color: #bfbfbf;
 }
 .portfolio .card h4 {
-	font-weight: bold;
-	text-decoration: underline;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .portfolio .card p {
-	font-size: 18px;
+  font-size: 0.8em;
 }
 
-#Res p{
-	font-size: 17px;
+#Res p {
+  font-size: 0.8em;
 }
 
-.portfolio .card img{
+.portfolio .card img {
   max-height: 250px;
 }
 
-.portfolio .btn{
-	margin: 10px;
-	width: 100px;
+.portfolio .btn {
+  margin: 10% 2% 0px 2%;
+
+  width: 100px;
 }
 
-.portfolio .col-sm-12{
-	padding-bottom: 3%;
+.portfolio .col-sm-12 {
+  padding-bottom: 3%;
 }
 
-.col-4{
-	font-style: italic;
+.col-4 {
+  font-style: italic;
 }
 
 /*Outils*/
 
 .outils {
-	padding-bottom: 5%;
+  padding-bottom: 5%;
 }
 
-.outils h2{
-	padding: 3%;
-	color:white;
+.outils h2 {
+  padding: 3%;
+  color: white;
 }
 
-.outils p{
-	color: white;
-	margin:auto;
-	font-size: 18px;
-	width: 80%;
+.outils p {
+  color: white;
+  margin: auto;
+  font-size: 18px;
+  width: 80%;
 }
 
-.outils h6{
-	color: white;
-	font-size: 22px;
+.outils h6 {
+  color: white;
+  font-size: 22px;
 }
 
-.outils .fa, .outils .fab{
-	font-size: 1.5em;
-	padding-bottom: 20px;
+.outils .fa,
+.outils .fab {
+  font-size: 1.5em;
+  padding-bottom: 20px;
 }
 
-.fa-html5{
-	color: blue;
+.fa-html5 {
+  color: blue;
 }
 
-.fa-css3{
-	color: orange;
+.fa-css3 {
+  color: orange;
 }
-.fa-bold{
-	color: purple;
+.fa-bold {
+  color: purple;
 }
-.fa-js{
-	color:yellow;
+.fa-js {
+  color: yellow;
 }
-.Xd{
-	width: 35px;
-	padding-bottom: 20px;
+.Xd {
+  width: 35px;
+  padding-bottom: 20px;
 }
-
-
 
 /*Formulaire*/
-.formulaire{
-	padding: 5%;
+.formulaire {
+  padding: 5%;
 }
-.formulaire h2{
-	color: white;
-	padding-bottom: 25px;
+.formulaire h2 {
+  color: white;
+  padding-bottom: 25px;
+}
+.formulaire p {
+  color: white;
+  font-size: 0.8em;
 }
 
 .formulaire .col-md-6 {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .form-row {
-	width: 50%;
-	margin-left: 25%;
+  width: 100%;
+  margin: auto;
 }
 
-textarea{
-	width: 50%;
-	margin-bottom: 25px;
+textarea {
+  width: 50%;
+  margin-bottom: 25px;
+  border-radius: 10px;
 }
-
-
-
-
+textarea:focus {
+  outline: none;
+}
 
 /*Bas de page*/
-
-footer h2{
-	color: white;
-	padding-bottom: 25px;
-}
-
-footer a{
-	color: black;
-  padding: 10px;
-}
-
-footer i{
-	color:white;
-}
 
 footer p {
   font-size: 10px;
@@ -213,57 +218,57 @@ footer p {
   color: aliceblue;
 }
 
-
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 375px) {
+  header {
+    min-height: 900px;
+  }
+  .presentation p {
+    width: 80%;
+  }
 
-	header {
-		min-height: 900px;
-	}
-	.presentation p {
-		width: 80%;
-	}
+  .outils i,
+  .outils img {
+    padding-top: 15%;
+  }
 
-	.portfolio .card {
-		min-height: auto;
-	}
+  .formulaire textarea {
+    width: 100%;
+  }
+}
 
-	.outils i, .outils img{
-		padding-top:  15%;
-	}
 
-	.formulaire textarea {
-		width: 100%;
-	}
+@media (max-width:767px){
+  header {
+    padding-bottom: 100%;
+  }
 
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 577px) {
-	.outils i, .outils img{
-		padding-top:  15%;
-	}
-	.formulaire textarea {
-		width: 50%;
-	}
-	.card {
-		height: 530px;
-	}
+  .outils i,
+  .outils img {
+    padding-top: 15%;
+  }
+  .formulaire textarea {
+    width: 50%;
+  }
+  .card {
+    height: 530px;
+  }
+  .form-row {
+    width: 50%;
+    margin: auto;
+  }
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-	.card {
-		height: 500px;
-	}
-  .navigation{
+  .card {
+    height: 500px;
+  }
+  .navigation {
     margin: 5%;
   }
-}
-
-/* Extra large devices (large desktops, 1200px and up)*/
-
-@media (min-width: 1200px) {
-
-
 }
