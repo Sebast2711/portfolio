@@ -104,8 +104,13 @@ header {
 .portfolio .card h4 {
   font-weight: bold;
   text-decoration: underline;
+  margin: 2% 0px;
+
 }
 
+.portfolio .card-text {
+  margin: 2% 0px;
+}
 .portfolio .card p {
   font-size: 0.8em;
 }
@@ -114,13 +119,16 @@ header {
   font-size: 0.8em;
 }
 
+.portfolio .outils-utilise {
+  margin: 10% 0px;
+}
+
 .portfolio .card img {
-  max-height: 250px;
+  height: 250px;
 }
 
 .portfolio .btn {
-  margin: 10% 2% 0px 2%;
-
+  margin: 5% 2% 0px 2%;
   width: 100px;
 }
 
