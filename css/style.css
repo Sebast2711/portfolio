@@ -146,6 +146,11 @@ header {
   font-style: italic;
 }
 
+
+.fa-angle-left, .fa-angle-right {
+  color : black;
+  font-size: 2em;
+}
 /*Outils*/
 
 .outils {
@@ -188,11 +193,19 @@ header {
 .fa-js-square {
   color: yellow;
 }
-.Xd {
-  width: 35px;
+
+#php, #sql {
+  max-height: 110px;
   padding-bottom: 20px;
 }
 
+#sql{
+  width: 35px;
+}
+
+#php {
+  width: 45px;
+}
 /*Formulaire*/
 .formulaire {
   padding: 5%;
