@@ -92,17 +92,26 @@ header {
 
 /*Portfolio*/
 
+
+
 .portfolio h2 {
   padding: 5%;
   color: white;
 }
 .portfolio .card {
   border: 2px solid black;
+  border-radius: 3%;
   min-height: 600px;
-  background-color: #D8D8D8;
-  
+  background-color: #FFFFFF;
+    
   padding-bottom: 10%;
 }
+
+.portfolio .card-body {
+  padding: 10px;
+}
+
+
 .portfolio .card h4 {
   font-weight: bold;
   text-decoration: underline;
@@ -114,7 +123,7 @@ header {
   margin: 2% 0px;
 }
 .portfolio .construction-en-cours {
-  background-color: #858585;
+  background-color: #999999;
 }
 
 .portfolio .card p {
