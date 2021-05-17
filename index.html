@@ -1,337 +1,158 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="fr">
 <head>
-	<title>Portfolio de Sébastien</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
 
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
-	<link rel="stylesheet" type="text/css"
-		href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.css" />
-	<meta name="viewport" content="width=device-width, initial-scale = 1.0" />
-
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.css" integrity="sha512-9iWaz7iMchMkQOKA8K4Qpz6bpQRbhedFJB+MSdmJ5Nf4qIN1+5wOVnzg5BQs/mYH3sKtzY+DOgxiwMz8ZtMCsw==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap" rel="stylesheet"> 
 
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-		crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-		crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-		crossorigin="anonymous"></script>
-
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Portfolio de Sébastien OILLO</title>
 </head>
-
 <body>
-	<div id="HautDePage" class="container-fluid navigation">
-		<nav class="navbar navbar-expand-md navbar-dark justify-content-end fixed-top">
-			<button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span style="color: blue" class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a id="Accueil" class="nav-link" href="#HautDePage">Accueil </a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#Projets">Projets</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#Outils">Outils</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#Contact">Contact</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
 
-	<!-- Présentation -->
-	<div class="container-fluid">
-		<header>
-			<div class="top">
-				<h1>OILLO Sébastien</h1>
-				<hr>
-				<h6>Développeur Web Junior</h6>
-			</div>
+<div class = "header">
+    <div class ="shadow">
+        <h1>OILLO<span>SEBASTIEN</span> </h1>
+        <h2>Développeur web <!---back end PHP Symfony--></h2>
+    </div>
+</div>
 
-			<div class="presentation">
-				<h3>Qui suis-je ?</h3>
-				<p>
-					Je m'appelle OILLO Sébastien, je suis développeur en informatique. <br>
-					Je suis à la recherche d'un stage de deux mois en tant que développeur web, afin de valider le titre
-					professionnel de développeur web et web mobile que je prépare.
-				</p>
-			</div>
+<div class ="container">
+    <div class="presentation">
+        <h3>QUI SUIS-JE ?</h3>
+        <p>Je suis Sebastien Oillo, developpeur web et web mobile.  
+        <!---Je suis actuellement à la recherche d’un poste de developpeur web back-end php symfony.-->
+        Vous pouvez consulter mes projets ci-dessous</p>
+    </div>
 
-			<div class="reseaux">
-				<h3>Mes réseaux</h3>
-				<a href="CV/CV_AFPA.pdf" download>
-					<i class="far fa-address-card"></i>
-				</a>
-				<a href="https://www.linkedin.com/in/sebastien-o-9b56991a2/" target="_blank">
-					<i class="fab fa-linkedin-in"></i>
-				</a>
-				<a href="https://github.com/Sebast2711" target="_blank">
-					<i class="fa fa-github" aria-hidden="true"></i>
-				</a>
-			</div>
-		</header>
-	</div>
+    <div class ="réseaux">
+        <h3>MES RESEAUX</h3>
+        <div class = "cards">
+            <a href = "CV/CV_AFPA.pdf" download class = "card">
+                <img src="img/icons/file-solid.svg" alt="" class = "card-logo">
+                <p class = "card-text">Consulter mon C.V.</p>
+            </a>
+            <a href="https://www.linkedin.com/in/SebastienOILLO" target="_blank" class = "card">
+                <img src="img/icons/linkedin-in-brands.svg" alt="" class = "card-logo">
+                <p class = "card-text">Consulter mon profil sur LinkedIn</p>
+            </a>
+            <a href="https://github.com/Sebast2711" target="_blank" class = "card">
+                <img src="img/icons/github-brands.svg" alt="" class = "card-logo">
+                <p class = "card-text">Consulter mon code sur Github</p>
+            </a>
+        </div>
 
-		<!--Projets  -->
-	<div class="portfolio container-fluid">
-		<h2 id="Projets">Portfolio</h2>
-		<div class="row">
+    </div>
 
-			<!-- Projet IJAD 08/04/2021 -->
-			<div class="col-sm-12 col-md-6 col-lg-4">
-				<div class="card" >
-					<div class="card-body">
-						<h4 class="card-title">IJAD</h4>
+    <div class = "projets">
+        <h3>MES PROJETS</h3>
+        <div class ="projet">
+            <h4 class ="project-name">BacklinkChecker</h4>
+            <div class = "project-body">
+                <img src="img/aVenir.png" alt="" class ="project-image">
+                <div class ="project-right">
+                    <p class="project-paragraph">Verificateur des liens de retour pour  l'entreprise Visicréa.</p>
+                    <!--- <div class ="bouttons">
+                        <a class = "button">Github</a>
+                        <a class = "button">Site</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
 
-						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-							<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img class="d-block w-100" src="img/Ijad1.PNG" alt="bearschool1">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="img/Ijad2.PNG" alt="bearschool2">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="img/Ijad3.PNG" alt="bearschool3">
-							</div>
-							</div>
+        <div class ="projet">
+            <h4 class ="project-name">IJAD</h4>
+            <div class = "project-body">
+                <img src="img/Ijad1.png" alt="" class ="project-image">
+                <div class="project-right">
+                    <p class="project-paragraph">E-commerce sneakers, streetwear, high-tech et objet de collection. Gestion d'utilisateur et système de panier </p>
+                    <div class ="bouttons">
+                        <a href="https://github.com/Sebast2711/ecommerce" target="_blank" class = "button">Github</a>
+                        <a href="https://ijad.rf.gd" target="_blank" class = "button">Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class ="projet">
+            <h4 class ="project-name">PIZZAS</h4>
+            <div class = "project-body">
+                <img src="img/projetpizza.png" alt="" class ="project-image">
+                <div class="project-right">
+                    <p class="project-paragraph">E-commerce pizzas.</p>
+                    <div class ="bouttons">
+                        <a href="https://github.com/Sebast2711/projetPizza" target="_blank" class = "button">Github</a>
+                        <a href="https://projetpizza.netlify.app/" target="_blank" class = "button">Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class ="projet">
+            <h4 class ="project-name">Manipulation de graphe orientés</h4>
+            <div class = "project-body">
+                <img src="img/S6.png" alt="" class ="project-image">
+                <div class="project-right">
+                    <p class="project-paragraph">Projet de fin de licence en C++, effectué dans un groupe de neuf personnes. Gestion de graphe orientés, algorithme applicable sur les graphes, interface graphique grâce à Qt.</p>
+                    <div class ="bouttons">
+                        <a href="https://github.com/gnouf1/Projet-S6" target="_blank" class = "button">Github</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+        
+        <div class ="projet">
+            <h4 class ="project-name">ClickController</h4>
+            <div class = "project-body">
+                <img src="img/clickController.png" alt="" class ="project-image">
+                <div class="project-right">
+                <p class="project-paragraph">Jeu basé sur le nombre de clics qu'un utilisateur peut effectuer en un certain temps donné.</p>
+                    <div class ="bouttons">
+                        <a href="https://github.com/Sebast2711/clickcontroller" target="_blank" class = "button">Github</a>
+                        <a href="https://clickcontroller.netlify.app/" target="_blank" class = "button">Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        
+        <div class ="projet">
+            <h4 class ="project-name">clipboardcopy</h4>
+            <div class = "project-body">
+                <img src="img/site.png" alt="" class ="project-image">                
+                <div class="project-right">
+                <p class="project-paragraph">Respect d'une maquette trouvé sur internet.</p>
+                    <div class ="bouttons">
+                        <a href="https://github.com/Sebast2711/webchallenge" target="_blank" class = "button">Github</a>
+                        <a href="https://clipboardcopy.netlify.app/" target="_blank" class = "button">Site</a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
 
-							<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-								<span><i class="fa fa-angle-left" aria-hidden="true"></i></span>
-							<span class="sr-only">Previous</span>
-							</a>
-							<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-								<span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-							<span class="sr-only">Next</span>
-							</a>
-						</div>
+    <div class="contact">
+    <h3>CONTACT</h3>
+	<form action="POST" data-netlify="true">
+        <div>
+            <label for="">Adresse Email</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="">Message</label>
+            <textarea name="" id=""></textarea>
+        </div>
+        <button class ="button" type = "submit">Envoyer</button>
+    </form>
+    </div>
+</div>
 
 
 
-						<p class="card-text">e-commerce</p>
-						
-						<a href="https://github.com/Sebast2711/ecommerce" target="_blank" class="btn btn-primary">
-							<i class="fa fa-github" aria-hidden="true"></i> Github
-						</a>
-						<a href="https://ijad.rf.gd/" target="_blank" class="btn btn-secondary">
-							Site
-						</a>
-
-						<div class="outils-utilise row justify-content-center">
-							<p class="col-4"> Php </p>
-							<p class="col-4"> Sql </p>
-							<p class="col-4"> HTML</p>
-							<p class="col-4"> CSS </p>
-							<p class="col-4"> Figma </p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- Projet Pizza 16/02/2021 -->
-			<div class="col-sm-12 col-md-6 col-lg-4">
-				<div class="card">
-					<div class="card-body">
-						<h4 class="card-title">Pizza Shop</h4>
-						<img class="card-img-top" src="img/projetpizza.PNG" alt="projetPizza" />
-						<p class="card-text"> Magasin de pizza</p>
-						
-						<a href="https://github.com/Sebast2711/projetPizza" target="_blank" class="btn btn-primary">
-							<i class="fa fa-github" aria-hidden="true"></i> Github
-						</a>
-						<a href="https://projetpizza.netlify.app/" target="_blank" class="btn btn-secondary">
-							Site
-						</a>
-
-						<div class="outils-utilise row justify-content-center">
-							<p class="col-4">HTML</p>
-							<p class="col-4">CSS</p>
-							<p class="col-4">Javascript</p>
-							<p class="col-4"> Figma </p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- Fin projet pizza -->
-
-			<div class="col-sm-12 col-md-6 col-lg-4">
-				<!--- Project 1 start --->
-				<div class="card">
-					<div class="card-body">
-						<h4 class="card-title">ClickController</h4>
-						<img class="card-img-top" src="img/clickController.png" alt="ClickController image" />
-						<p class="card-text">Gestion de cliques </p>
-
-						<a href="https://github.com/Sebast2711/clickcontroller" target="_blank" class="btn btn-primary">
-							<i class="fa fa-github" aria-hidden="true"></i> Github
-						</a>
-						<a href="https://clickcontroller.netlify.app/" target="_blank" class="btn btn-secondary">
-							Site
-						</a>
-
-						<div class="outils-utilise row justify-content-center">
-							<p class="col-4">HTML</p>
-							<p class="col-4">CSS</p>
-							<p class="col-4">Javascript</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--- Project 1 end --->
-
-			<div class="col-sm-12 col-md-6 col-lg-4">
-				<!--- Project 2 start --->
-				<div class="card">
-					<div class="card-body">
-						<h4 class="card-title">Clipboard Copy</h4>
-						<img class="card-img-top" src="img/site.png" alt="Card image cap" />
-						<p class="card-text">
-							Presentation de logiciel informatique (template)
-						</p>
-
-						<a href="https://github.com/Sebast2711/webchallenge" target="_blank" class="btn btn-primary">
-							<i class="fa fa-github" aria-hidden="true"></i> Github
-						</a>
-						<a href="https://clipboardcopy.netlify.app/" target="_blank" class="btn btn-secondary">
-							Site
-						</a>
-
-						<div class="outils-utilise row justify-content-center">
-							<p class="col-5">HTML</p>
-							<p class="col-5">CSS</p>
-						</div>
-
-					</div>
-				</div>
-			</div>
-			<!--- Project 2 end --->
-
-			<div class="col-sm-12 col-md-6 col-lg-4">
-				<!--- Project 3 start --->
-				<div class="card">
-					<div class="card-body">
-						<h4 class="card-title">Reservations</h4>
-						<img class="card-img-top" src="img/BDDL3.png" alt="projet S6 image" />
-						<p class="card-text">Projet de fin d'UE : base de données</p>
-
-						<a href="https://github.com/Sebast2711/BaseDeDonnee" target="_blank" class="btn btn-primary">
-							<i class="fa fa-github" aria-hidden="true"></i> Github
-						</a>
-
-						<div class="outils-utilise row justify-content-center" id="Res">
-							<p class="col-4">PHP</p>
-							<p class="col-4">Html</p>
-							<p class="col-4">Css</p>
-							<p class="col-6">Base de données</p>
-
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--- Project 3 end --->
-
-			<div class="col-sm-12 col-md-6 col-lg-4">
-				<!--- Project 4 start --->
-				<div class="card">
-					<div class="card-body">
-						<h4 class="card-title">Manipulation de graphes orientés</h4>
-						<img class="card-img-top" src="img/S6.png" alt="projet S6 image" />
-						<p class="card-text">
-							Projet de fin de licence informatique 
-						</p>
-
-						<a href="https://github.com/gnouf1/Projet-S6" target="_blank" class="btn btn-primary">
-							<i class="fa fa-github" aria-hidden="true"></i> Github
-						</a>
-
-						<div class="outils-utilise row justify-content-center">
-							<p class="col-5">Gestion de projet</p>
-							<p class="col-5">Documentation</p>
-							<p class="col-5">C++</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--- Project 4 end --->
-		</div>
-		<!--- Row end --->
-	</div>
-	<!--- Portfolio end--->
-
-	<div class="outils container-fluid">
-		<h2 id="Outils">Outils</h2>
-		<div class="row justify-content-start">
-			<div class="col-xs-6 col-sm-4 col-md-3">
-				<i class="fa fa-html5"></i>
-				<h6>HTML5</h6>
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-3">
-				<i class="fa fa-css3" aria-hidden="true"></i>
-				<h6>CSS3</h6>
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-3">
-				<i class="fab fa-js-square"></i>
-				<h6>Javascript</h6>
-			</div>
-			<div class="col-xs-6 col-sm-4 col-md-3">
-				<i class="fa fa-bold" aria-hidden="true"></i>
-				<h6>Bootstrap</h6>
-			</div>
-
-			<div class="col-xs-6 col-sm-4 col-md-3">
-				<img id = "php" src="img/php-logo.png" alt="php-logo">
-				<h6>Php</h6>
-			</div>
-
-			<div class="col-xs-6 col-sm-4 col-md-3">
-				<img id = "sql" src="img/sql-server.PNG" alt="sql-logo">	
-				<h6>Sql</h6>
-			</div>
-		</div>
-	</div>
-
-	<div class="formulaire container-fluid">
-		<h2 id="Contact">Me contater</h2>
-		<p>Vous souhaitez me contacter par ecris, alors ecrivez moi un message et je vous contacterai.</p>
-		<form action="POST" data-netlify="true">
-			<div class="form-row justify-content-center">
-				<div class="col-md-6 col-sm-12">
-					<input class="form-control" type="text" id="name" name="nom" placeholder="Nom" required />
-				</div>
-				<div class="col-md-6 col-sm-12">
-					<input class="form-control" type="mail" id="email" name="email" placeholder="Adresse Mail"
-						required />
-				</div>
-			</div>
-
-			<textarea id="message" name="message" placeholder="Message" required></textarea>
-
-			<br />
-			<button class="btn btn-primary" type="submit">Envoyez</button>
-			<button class="btn btn-secondary" type="reset">Annulez</button>
-		</form>
-	</div>
-
-	<footer class="container-fluid">
-		<p>&copy OILLO Sébastien</p>
-	</footer>
 </body>
-
 </html>
